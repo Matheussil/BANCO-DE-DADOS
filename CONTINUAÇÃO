@@ -1,0 +1,7 @@
+use empresa;
+
+UPDATE Funcionarios SET salario = (salario * 1.1 ) where cidade ='London';
+SELECT salario FROM funcionarios WHERE cidade = 'London';
+SELECT nome,Salrio,Salario*1.30 FROM Funcionarios;
+SELECT CodFun, Cargo FROM Funcionarios WHERE NOT Cidade ='london' AND Salario >=1000;
+DELETE from Fornecedore
